@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,68 +21,126 @@
     <meta name="twitter:image" content="https://mariamfalah.com/images/image.png">
     <meta name="twitter:site" content="@mariamalabody">
     <meta name="twitter:creator" content="@mariamalabody">
-   
-    <link rel="stylesheet" href="Style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="anmition.css">
+
+    <!--<link rel="stylesheet" href="Style.css">-->
+
     <title>Portfolio Page</title>
 </head>
 
-<body>
+<body class="bg-gray-800">
     <header>
-        <div class="header-container">
+        <div class="flex items-center  gap-6 bg-gray-900  py-2">
+            <img src="images/photo_2025-07-08_03-14-45.jpg" class=" ml-9 w-20 h-20 rounded-full  border-4 border-yellow-400  " />
+            <div class="text-white">
 
-            <img src="images/photo_2025-07-08_03-14-45.jpg" class="personal-image" />
-            <div class="personal-info">
-
-                <h1>Mariam Faleh Hassan</h1>
+                <h1 class="text-yellow-400 text-2xl font-bold">Mariam Faleh Hassan</h1>
                 <p>
                     Email: <a href="mailto:mmaariam18@gmail.com">mmaariam18@gmail.com</a>
 
                 </p>
-                <p>Basra | +9647781258790</p>
+                <p>Basra | <a href="tel:+9647781258790">+9647781258790</a></p>
             </div>
         </div>
-        <nav>
-            <ul class="nav-info">
-                <li> <a href="#about">About</a></li>
-                <li><a href="skills/skills-section.html">Skills</a></li>
-                <li> <a href="certificates/certificates-section.html">Certificates</a></li>
-                <li> <a href="services/service-section.html"> services</a></li>
-                <li><a href="contact/contact-section.html">Contact</a></li>
+        <nav class="bg-gray-900 text-cyan-50 flex justify-center items-center px-4 py-4 ">
+
+            <ul class="flex gap-10">
+                <li > <a href="#about" class="hover:bg-yellow-400 px-2  py-1 rounded-2xl  duration-500 decoration-clone" >About</a></li>
+                <li ><a href="skills/skills-section.html" class="hover:bg-yellow-400 px-2  py-1 rounded-2xl  duration-500 decoration-clone">Skills</a></li>
+                <li> <a href="certificates/certificates-section.html" class="hover:bg-yellow-400 px-2  py-1 rounded-2xl  duration-500 decoration-clone">Certificates</a></li>
+                <li> <a href="services/service-section.html" class="hover:bg-yellow-400 px-2  py-1 rounded-2xl  duration-500 decoration-clone">Services</a></li>
+                <li><a href="contact/contact-section.html"class="hover:bg-yellow-400 px-2  py-1 rounded-2xl  duration-500 decoration-clone">Contact</a></li>
 
             </ul>
         </nav>
     </header>
     <main>
-    <section class="info">
-        <div class="info-content">
-            
-            <div class="right-side">
-                <div class="text">
-                    <h1>I'm a front-end designer</h1>
-                    <p>
-                        with hands-on experience in developing websites using HTML, CSS, and JavaScript, as well as
-                        knowledge of modern frameworks. I have been involved in the implementation of various
-                        projects including pharmacy and warehouse management systems and project management
-                        platforms. I am interested in user experience and writing technical and interactive content,
-                        and I endeavour to present it in a clear and simple way. I am currently working on the
-                        Digital Hub project to provide digital content that combines design and technology. I
-                        believe in the importance of continuous learning and teamwork in developing solutions and
-                        building effective and innovative ideas..
+        <section class="bg-gray-900 text-white p-10 mt-4 rounded-xl shadow-xl max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center ">
+
+                
+
+                <div class="md:w-1/2 flex flex-col items-center md:items-start">
+                    <h1 class="text-4xl font-bold text-yellow-400 mb-4">I'm Web Designer</h1>
+                    <div class="w-20 h-1 bg-yellow-500 mx-auto md:mx-0 animate-pulse rounded"></div>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" height="200" width="200" class="mb-6">
+                        <g style="order: -1;">
+                            <polygon transform="rotate(45 100 100)" stroke-width="1" stroke="#d3a410" fill="none"
+                                points="70,70 148,50 130,130 50,150" id="bounce"></polygon>
+                            <polygon transform="rotate(45 100 100)" stroke-width="1" stroke="#d3a410" fill="none"
+                                points="70,70 148,50 130,130 50,150" id="bounce2"></polygon>
+                            <polygon transform="rotate(45 100 100)" stroke-width="2" stroke="" fill="#414750"
+                                points="70,70 150,50 130,130 50,150"></polygon>
+                            <polygon stroke-width="2" stroke="" fill="url(#gradiente)"
+                                points="100,70 150,100 100,130 50,100"></polygon>
+                            <defs>
+                                <linearGradient y2="100%" x2="10%" y1="0%" x1="0%" id="gradiente">
+                                    <stop style="stop-color: #1e2026;stop-opacity:1" offset="20%"></stop>
+                                    <stop style="stop-color:#414750;stop-opacity:1" offset="60%"></stop>
+                                </linearGradient>
+                            </defs>
+                            <polygon transform="translate(20, 31)" stroke-width="2" stroke="" fill="#b7870f"
+                                points="80,50 80,75 80,99 40,75"></polygon>
+                            <polygon transform="translate(20, 31)" stroke-width="2" stroke="" fill="url(#gradiente2)"
+                                points="40,-40 80,-40 80,99 40,75"></polygon>
+                            <defs>
+                                <linearGradient y2="100%" x2="0%" y1="-17%" x1="10%" id="gradiente2">
+                                    <stop style="stop-color: #d3a51000;stop-opacity:1" offset="20%"></stop>
+                                    <stop style="stop-color:#d3a51054;stop-opacity:1" offset="100%" id="animatedStop">
+                                    </stop>
+                                </linearGradient>
+                            </defs>
+                            <polygon transform="rotate(180 100 100) translate(20, 20)" stroke-width="2" stroke=""
+                                fill="#d3a410" points="80,50 80,75 80,99 40,75"></polygon>
+                            <polygon transform="rotate(0 100 100) translate(60, 20)" stroke-width="2" stroke=""
+                                fill="url(#gradiente3)" points="40,-40 80,-40 80,85 40,110.2"></polygon>
+                            <defs>
+                                <linearGradient y2="100%" x2="10%" y1="0%" x1="0%" id="gradiente3">
+                                    <stop style="stop-color: #d3a51000;stop-opacity:1" offset="20%"></stop>
+                                    <stop style="stop-color:#d3a51054;stop-opacity:1" offset="100%" id="animatedStop">
+                                    </stop>
+                                </linearGradient>
+                            </defs>
+                            <polygon transform="rotate(45 100 100) translate(80, 95)" stroke-width="2" stroke=""
+                                fill="#ffe4a1" points="5,0 5,5 0,5 0,0" id="particles"></polygon>
+                            <polygon transform="rotate(45 100 100) translate(80, 55)" stroke-width="2" stroke=""
+                                fill="#ccb069" points="6,0 6,6 0,6 0,0" id="particles"></polygon>
+                            <polygon transform="rotate(45 100 100) translate(70, 80)" stroke-width="2" stroke=""
+                                fill="#fff" points="2,0 2,2 0,2 0,0" id="particles"></polygon>
+                            <polygon stroke-width="2" stroke="" fill="#292d34"
+                                points="29.5,99.8 100,142 100,172 29.5,130"></polygon>
+                            <polygon transform="translate(50, 92)" stroke-width="2" stroke="" fill="#1f2127"
+                                points="50,50 120.5,8 120.5,35 50,80"></polygon>
+                        </g>
+                    </svg>
+                </div>
+                <div class="md:w-1/2 ">
+                    <p class="text-lg leading-relaxed ">
+                       
                     </p>
                 </div>
+
+            </div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="fixed bottom-0 w-full bg-gray-900 p-5">
+        <div class="flex justify-between items-center px-10">
+            <div class="flex-1"></div>
+
+            <div class="text-cyan-50 text-center flex-1">
+                &copy; 2025 Mariam Faleh Hassan
+            </div>
+
+            <div class="text-yellow-300 flex gap-7 justify-end flex-1">
+                <a href="https://linkedin.com/in/m-alab0dy1"target="_blank">LinkedIn</a>
+                <a href="https://github.com/mariamalabody" target="_blank">GitHub</a>
             </div>
         </div>
-    </section>
-</main>
-<footer>
-  <div class="container">
-    <div class="copyright">
-      &copy; 2025 Mariam Faleh Hassan
-    </div>
-    <div class="social-links">
-      <a href="https://linkedin.com/in/m-alab0dy1">LinkedIn</a>
-      <a href="https://github.com/mariamalabody">GitHub</a>
-    </div>
-  </div>
-</footer>
+    </footer>
+
+
 </body>

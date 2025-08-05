@@ -4,47 +4,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../Style.css" />
-  <link rel="stylesheet" href="skills.css" />
+  <!--<link rel="stylesheet" href="../Style.css" />-
+  <link rel="stylesheet" href="skills.css" />-->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
   <title>Skills</title>
 </head>
 
-<body>
-  <!-- Header -->
-  <header>
-    <div class="header-container">
-      <img src="../images/photo_2025-07-08_03-14-45.jpg" class="personal-image" />
-      <div class="personal-info">
-        <h1>Mariam Faleh Hassan</h1>
-        <p>Email: <a href="mailto:mmaariam18@gmail.com">mmaariam18@gmail.com</a></p>
-        <p>Basra | +9647781258790</p>
-      </div>
-    </div>
-    <nav>
-      <ul class="nav-info">
-        <li><a href="../index.html">About</a></li>
-        <li><a href="skills-section.html" class="active">Skills</a></li>
-        <li><a href="../certificates/certificates-section.html">Certificates</a></li>
-        <li><a href="../services/service-section.html">Services</a></li>
-        <li><a href="../contact/contact-section.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<body class="bg-gray-800">
+   <header>
+        <div class="flex items-center  gap-6 bg-gray-900  py-2">
+            <img src="../images/photo_2025-07-08_03-14-45.jpg" class=" ml-9 w-20 h-20 rounded-full  border-4 border-yellow-400  " />
+            <div class="text-white">
+
+                <h1 class="text-yellow-400 text-2xl font-bold">Mariam Faleh Hassan</h1>
+                <p>
+                    Email: <a href="mailto:mmaariam18@gmail.com">mmaariam18@gmail.com</a>
+
+                </p>
+                <p>Basra | <a href="tel:+9647781258790">+9647781258790</a></p>
+            </div>
+        </div>
+        <nav class="bg-gray-900 text-cyan-50 flex justify-center items-center px-4 py-4 ">
+
+            <ul class="flex gap-10">
+                <li > <a href="../index.html" class="hover:bg-yellow-400 px-2  py-1 rounded-2xl  duration-500 decoration-clone" >About</a></li>
+                <li ><a href="#skilis" class="hover:bg-yellow-400 px-2  py-1 rounded-2xl  duration-500 decoration-clone">Skills</a></li>
+                <li> <a href="../certificates/certificates-section.html" class="hover:bg-yellow-400 px-2  py-1 rounded-2xl  duration-500 decoration-clone">Certificates</a></li>
+                <li> <a href="../services/service-section.html" class="hover:bg-yellow-400 px-2  py-1 rounded-2xl  duration-500 decoration-clone"> Services</a></li>
+                <li><a href="../contact/contact-section.html"class="hover:bg-yellow-400 px-2  py-1 rounded-2xl  duration-500 decoration-clone">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
   <main>
     <section class="skills-section">
-      <h2 class="section-title">My Skills</h2>
       <div class="skills-container">
         <div class="skill-card">HTML5</div>
         <div class="skill-card">CSS3</div>
         <div class="skill-card">JavaScript</div>
         <div class="skill-card">Bootstrap</div>
-        <div class="skill-card">Tailwind CSS</div>
          <div class="skill-card">Flutter</div>
           <div class="skill-card">Dart</div>
            <div class="skill-card">C++</div>
             <div class="skill-card">Project Manger</div>
              <div class="skill-card">Adobe Express</div>
-        <div class="skill-card">React.js</div>
         <div class="skill-card">PHP</div>
         <div class="skill-card">MySQL</div>
         <div class="skill-card">Git & GitHub</div>
@@ -52,23 +57,24 @@
         <div class="skill-card">UI-UX</div>
         <div class="skill-card">Content Writing</div>
         <div class="skill-card">Advanced Excel</div>
-        <div class="skill-card">Microsoft Office</div>
       </div>
     </section>
   </main>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="copyright">
-        &copy; 2025 Mariam Faleh Hassan
-      </div>
-      <div class="social-links">
-        <a href="https://linkedin.com/in/m-alab0dy1" target="_blank">LinkedIn</a>
-        <a href="https://github.com/mariamalabody" target="_blank">GitHub</a>
-      </div>
-    </div>
-  </footer>
-</body>
+ <footer class="fixed bottom-0 w-full bg-gray-900 p-5">
+        <div class="flex justify-between items-center px-10">
+            <div class="flex-1"></div>
+
+            <div class="text-cyan-50 text-center flex-1">
+                &copy; 2025 Mariam Faleh Hassan
+            </div>
+
+            <div class="text-yellow-300 flex gap-7 justify-end flex-1">
+                <a href="https://linkedin.com/in/m-alab0dy1"target="_blank">LinkedIn</a>
+                <a href="https://github.com/mariamalabody" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</>
 
 </html>
