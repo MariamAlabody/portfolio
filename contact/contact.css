@@ -169,4 +169,17 @@
     opacity: 1;
   }
 }
+@media (max-width: 640px) {
+  .card {
+    flex-direction: column; 
+    margin-right: 0; 
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .socialContainer {
+    width: 45px;
+    height: 45px;
+  }
+}
 
