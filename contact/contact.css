@@ -77,7 +77,7 @@
 .form-container .form-submit-btn {
   display: block;
   margin: 0 auto; 
-  color:#facc15 ;
+  color:#fff ;
   font-weight: 200;
   width: 50%;
   background: #111827;
@@ -87,14 +87,10 @@
   cursor: pointer;
   border-radius: 6px;
   margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
   
 }
-/*
-.form-container .form-submit-btn:hover {
-  background-color: #facc15;
-  border-color: #111827;
-}
-*/
+
 
 
 /*     ______________________ */
@@ -129,9 +125,9 @@
   background-color: #d62976;
   transition-duration: .3s;
 }
-/* twitter*/
+/* descord*/
 .containerTwo:hover {
-  background-color: #00acee;
+  background-color: #5b62c7;
   transition-duration: .3s;
 }
 /* linkdin*/
